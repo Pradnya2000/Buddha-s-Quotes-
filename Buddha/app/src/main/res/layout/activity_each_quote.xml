@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Quotelayout"
+    tools:context=".Activites.EachQuote">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:foregroundGravity="center"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/view_pager">
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center">
+
+
+        <ImageButton
+            android:id="@+id/wallpaper"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:src="@drawable/ic_wallpaper_black_24dp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textOff=""
+            android:textOn="" />
+
+        <ImageButton
+            android:id="@+id/mcopy"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_content_copy" />
+
+        <ImageButton
+            android:id="@+id/mshare"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:src="@drawable/ic_share_default" />
+    </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

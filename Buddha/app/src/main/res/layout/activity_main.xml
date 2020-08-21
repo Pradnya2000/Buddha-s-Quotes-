@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/allquotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#0E2940"
+        android:text="सर्व सुविचार"
+        android:textSize="18sp"
+        android:textColor="#F2D750" />
+
+    <Button
+        android:id="@+id/stories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="#0E2940"
+        android:textSize="18sp"
+        android:text="भगवान बुध्दाच्या बोधकथा"
+        android:textColor="#F2D750" />
+
+    <Button
+        android:id="@+id/favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:background="#0E2940"
+        android:text="आवडते सुविचार"
+        android:textColor="#F2D750" />
+</LinearLayout>
